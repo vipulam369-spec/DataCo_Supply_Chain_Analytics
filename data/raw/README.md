@@ -23,7 +23,7 @@ The raw CSV is not committed to this repository because of its file size. The pr
 
 1. Obtain the DataCo Supply Chain Dataset from the public source.
 2. Place the source file in this directory.
-3. Ensure the filename is `Raw_DataCoSupplyChainDataset.csv`.
+3. Ensure the filename is `DataCoSupplyChainDataset.csv`.
 4. Run the final analytics and ML notebook from the project environment.
 
 The raw dataset is used for data audit and cleaning. The resulting cleaned dataset supports the downstream analytical and deployment artifacts.
