@@ -1,6 +1,6 @@
 # Raw Dataset
 
-This directory is reserved for the original source dataset used in the project.
+This directory contains the original source dataset used to establish the project's analytical audit trail.
 
 ## Source
 
@@ -9,21 +9,27 @@ DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS
 Kaggle:
 https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
 
-## Required file
-
-Place the following file in this directory when running the project locally:
+Source file:
 
 `DataCoSupplyChainDataset.csv`
 
+## Local project filename
+
+For the project workflow, the source dataset is loaded as:
+
+`Raw_DataCoSupplyChainDataset.csv`
+
+If the downloaded Kaggle file is named `DataCoSupplyChainDataset.csv`, rename it to `Raw_DataCoSupplyChainDataset.csv` before running the notebook.
+
 ## Repository note
 
-The raw CSV is not committed to this repository because of its file size. The project notebook uses the filename above when the dataset is available locally.
+The raw CSV is not committed to this repository because of its file size.
+
+The notebook loads the raw dataset first, performs the documented audit and cleaning workflow, and produces the cleaned analytical dataset used by the downstream project artifacts.
 
 ## Local setup
 
-1. Obtain the DataCo Supply Chain Dataset from the public source.
-2. Place the source file in this directory.
-3. Ensure the filename is `DataCoSupplyChainDataset.csv`.
+1. Download the source dataset from Kaggle.
+2. Rename the downloaded file to `Raw_DataCoSupplyChainDataset.csv`.
+3. Place it in this directory.
 4. Run the final analytics and ML notebook from the project environment.
-
-The raw dataset is used for data audit and cleaning. The resulting cleaned dataset supports the downstream analytical and deployment artifacts.
