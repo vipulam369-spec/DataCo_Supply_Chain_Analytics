@@ -1,4 +1,6 @@
 # DataCo Supply Chain Analytics & Predictive ML
+[GitHub Repository](https://github.com/vipulam369-spec/DataCo_Supply_Chain_Analytics)
+[Live Streamlit App](https://datacosupplychainanalytics-f4ese36q6pxoaxrrsphdq9.streamlit.app/)
 
 ## Business Analytics and Predictive Risk Case Study
 
