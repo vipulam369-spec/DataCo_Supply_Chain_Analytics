@@ -13,7 +13,7 @@ https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-d
 
 Place the following file in this directory when running the project locally:
 
-`Raw_DataCoSupplyChainDataset.csv`
+`DataCoSupplyChainDataset.csv`
 
 ## Repository note
 
