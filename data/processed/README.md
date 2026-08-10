@@ -2,7 +2,7 @@
 
 This directory is reserved for the cleaned analytical dataset produced by the final project notebook.
 
-## File
+## File \
 
 `DataCoSupplyChainDataset.csv`
 
